@@ -31,5 +31,10 @@ describe('Prime Numbers', () => {
             const primes = Primes.getPrimes(10);
             Chai.assert.deepEqual(firstTenPrimes, primes);
         });
+
+        it('Sum of the first 1000 prime numbers', () => {
+            const firstThousandPrimes = Primes.getPrimes(1000);
+            Chai.assert.equal(Primes.sumOfPrimes(firstThousandPrimes), 3682913);
+        });
     })
 });
