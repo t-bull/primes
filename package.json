@@ -1,0 +1,33 @@
+{
+  "name": "sum-of-primes",
+  "version": "1.0.0",
+  "description": "Sum of all primes upto 1000",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "./node_modules/.bin/tsc -p .",
+    "test": "./node_modules/.bin/mocha -R spec ./test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-bull/sum-of-primes.git"
+  },
+  "author": "David Turnbull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-bull/sum-of-primes/issues"
+  },
+  "homepage": "https://github.com/t-bull/sum-of-primes#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.39",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "tslint": "^4.4.2",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.53",
+    "@types/node": "^7.0.5",
+    "lodash": "^4.17.4"
+  }
+}
