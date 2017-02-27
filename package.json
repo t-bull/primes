@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "transpile": "./node_modules/.bin/tsc -p .",
-    "test": "./node_modules/.bin/mocha -R spec ./test/**/*.js"
+    "test": "npm run transpile && ./node_modules/.bin/mocha -R spec ./test/**/*.js"
   },
   "repository": {
     "type": "git",
